@@ -2,8 +2,8 @@
   <rect width="1080" height="1080" fill="#0a0a0a"/>
   <line x1="120" y1="380" x2="960" y2="380" stroke="#c9a84c" stroke-width="2"/>
   <text x="540" y="340" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="80" font-weight="800" letter-spacing="6" fill="white">NEW DROP</text>
-  <text x="540" y="340" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="80" font-weight="800" letter-spacing="6" fill="#c9a84c" opacity="0.15">NEW DROP</text>
-  <text x="540" y="450" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="36" font-weight="400" letter-spacing="10" fill="white" opacity="0.9">COLLECTION_NAME</text>
+  <text x="540" y="340" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="80" font-weight="800" letter-spacing="6" fill="#c9a84c" opacity="0.1">NEW DROP</text>
+  <text x="540" y="450" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="36" font-weight="400" letter-spacing="10" fill="white" opacity="0.9">SILENT DISCIPLINE</text>
   <text x="540" y="510" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" letter-spacing="4" fill="#c9a84c">JUNE 2026</text>
   <text x="540" y="650" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="400" letter-spacing="6" fill="white" opacity="0.3">NOIR EDGE</text>
   <line x1="420" y1="680" x2="660" y2="680" stroke="#c9a84c" stroke-width="1" opacity="0.4"/>

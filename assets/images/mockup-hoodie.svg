@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
   <rect width="400" height="400" fill="#0d0a1a" rx="8"/>
-  <path d="M70 140 L40 110 L80 60 L120 90 L200 110 L280 90 L320 60 L360 110 L330 140 L310 340 L90 340 Z" fill="#0d0a1a" stroke="#1a1030" stroke-width="2"/>
-  <text x="200" y="185" text-anchor="middle" font-family="serif" font-size="40" font-weight="900" fill="#7c3aed">鬼</text>
-  <text x="200" y="220" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#e2d9f0">GAICHI</text>
+  <path d="M65 145 L35 110 L75 55 L115 85 L200 105 L285 85 L325 55 L365 110 L335 145 L315 345 L85 345 Z" fill="#0d0a1a" stroke="#1a1030" stroke-width="2"/>
+  <path d="M85 100 Q70 65 95 55 Q120 55 115 85" fill="#0d0a1a" stroke="#1a1030" stroke-width="1.5"/>
+  <path d="M315 100 Q330 65 305 55 Q280 55 285 85" fill="#0d0a1a" stroke="#1a1030" stroke-width="1.5"/>
+  <text x="200" y="190" text-anchor="middle" font-family="serif" font-size="44" font-weight="900" fill="#7c3aed">鬼</text>
+  <text x="200" y="220" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="700" letter-spacing="4" fill="#e2d9f0">GAICHI</text>
+  <line x1="150" y1="233" x2="250" y2="233" stroke="#7c3aed" stroke-width="0.75" opacity="0.4"/>
+  <text x="200" y="248" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="6" font-weight="500" letter-spacing="2" fill="#f59e0b" opacity="0.7">DISCIPLINE · FOCUS · POWER</text>
 </svg>
