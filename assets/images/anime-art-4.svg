@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#0d0a1a"/>
+  <path d="M100 280 Q200 100 300 280 Q200 240 100 280" fill="#7c3aed" opacity="0.08"/>
+  <circle cx="160" cy="200" r="3" fill="#f59e0b" opacity="0.4"/>
+  <circle cx="240" cy="200" r="3" fill="#f59e0b" opacity="0.4"/>
+  <text x="200" y="210" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="8" font-weight="500" letter-spacing="4" fill="white" opacity="0.2">DISCIPLINE</text>
+  <text x="200" y="310" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="7" font-weight="400" letter-spacing="2" fill="white" opacity="0.15">ANIME ART</text>
+</svg>
