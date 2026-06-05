@@ -239,6 +239,11 @@ nav {
 }
 .contact-item .value a:hover { opacity:0.65; }
 
+.instagram-links { display:flex; flex-direction:column; gap:2px; }
+.ig-line { display:inline-flex; align-items:center; gap:6px; }
+.ig-line .icon { flex-shrink:0; }
+.ig-offset { padding-left:22px; }
+
 /* ── Footer ── */
 footer {
   padding:40px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.04);
