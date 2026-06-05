@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // ── Nav toggle (mobile) ──
+  // Nav toggle
   const toggle = document.querySelector('.nav-toggle');
   const navLinks = document.querySelector('.nav-links');
   if (toggle) {
@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
       navLinks.classList.toggle('open');
       toggle.textContent = navLinks.classList.contains('open') ? '✕' : '☰';
     });
-    // Close on link click
     navLinks.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         navLinks.classList.remove('open');
@@ -17,22 +16,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ── Scroll reveal ──
+  // Scroll reveal
   const revealElements = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
+        if (entry.isIntersecting) entry.target.classList.add('visible');
       });
     },
     { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
   );
   revealElements.forEach(el => observer.observe(el));
 
-  // ── Active nav highlight ──
-  const sections = document.querySelectorAll('.brand-section, #work, #contact, .hero');
+  // Nav highlight
+  const sections = document.querySelectorAll('.hero, #services, #process, #work, .brand-section, #before-after, #projects, #contact');
   const navAnchors = document.querySelectorAll('.nav-links a');
   const observerNav = new IntersectionObserver(
     (entries) => {

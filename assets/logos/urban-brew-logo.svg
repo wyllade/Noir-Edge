@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
-  <circle cx="200" cy="60" r="55" stroke="#5c3a1e" stroke-width="2"/>
-  <circle cx="200" cy="60" r="50" stroke="#5c3a1e" stroke-width="1" stroke-dasharray="3 3"/>
-  <text x="200" y="52" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="#5c3a1e">URBAN</text>
-  <text x="200" y="78" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="#5c3a1e">BREW</text>
-  <text x="200" y="98" text-anchor="middle" font-family="'Inter', sans-serif" font-size="8" font-weight="400" letter-spacing="4" fill="#8b6f47">KIRINYAGA EST. 2020</text>
-</svg>

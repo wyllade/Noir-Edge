@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
-  <rect width="400" height="400" fill="#f7f2e8" rx="8"/>
-  <rect x="130" y="100" width="140" height="200" rx="4" fill="#2c1810" transform="rotate(-3, 200, 200)"/>
-  <rect x="130" y="100" width="140" height="200" rx="4" fill="none" stroke="#d4a017" stroke-width="6" transform="rotate(-3, 200, 200)"/>
-  <rect x="250" y="160" width="16" height="40" rx="2" fill="#d4a017" opacity="0.4" transform="rotate(-3, 200, 200)"/>
-  <text x="200" y="210" text-anchor="middle" font-family="'Playfair Display', serif" font-size="16" font-weight="700" letter-spacing="1" fill="#f7f2e8" transform="rotate(-3, 200, 200)">Àṣà</text>
-  <text x="200" y="240" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="7" font-weight="400" letter-spacing="2" fill="#d4a017" transform="rotate(-3, 200, 200)">STUDIO</text>
-  <text x="200" y="340" text-anchor="middle" font-family="'Playfair Display', serif" font-size="8" font-weight="400" font-style="italic" letter-spacing="1" fill="#8b7355">garment tag</text>
-</svg>
