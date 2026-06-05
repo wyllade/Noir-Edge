@@ -601,15 +601,6 @@ footer {
   background: rgba(245,158,11,0.1);
 }
 
-.project-card.placeholder {
-  opacity: 0.5;
-  border-style: dashed;
-}
-
-.project-card.placeholder:hover {
-  opacity: 0.8;
-}
-
 /* ── Anime Art Gallery ── */
 .art-gallery {
   display: grid;
