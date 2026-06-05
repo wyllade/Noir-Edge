@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#f5f0ea" rx="8"/>
+  <circle cx="200" cy="200" r="90" fill="none" stroke="#4a3728" stroke-width="3"/>
+  <circle cx="200" cy="200" r="82" fill="none" stroke="#b8860b" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="200" cy="200" r="60" fill="#4a3728" opacity="0.1"/>
+  <text x="200" y="190" text-anchor="middle" font-family="'Playfair Display', serif" font-size="16" font-weight="700" letter-spacing="3" fill="#4a3728">GRACE</text>
+  <text x="200" y="215" text-anchor="middle" font-family="'Playfair Display', serif" font-size="14" font-weight="700" letter-spacing="3" fill="#b8860b">REVIVAL</text>
+  <text x="200" y="245" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="7" font-weight="400" letter-spacing="2" fill="#4a3728">FOUNDED IN FAITH</text>
+  <text x="200" y="340" text-anchor="middle" font-family="'Playfair Display', serif" font-size="8" font-weight="400" font-style="italic" letter-spacing="1" fill="#8b7355">circular seal</text>
+</svg>

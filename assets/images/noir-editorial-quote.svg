@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" fill="none">
+  <rect width="1080" height="1080" fill="#0a0a0a"/>
+  <text x="120" y="320" font-family="'Playfair Display', serif" font-size="140" font-weight="400" fill="#c9a84c" opacity="0.2">"</text>
+  <text x="200" y="420" font-family="'DM Sans', sans-serif" font-size="52" font-weight="700" letter-spacing="-0.02em" fill="white">Silence is a</text>
+  <text x="200" y="490" font-family="'DM Sans', sans-serif" font-size="52" font-weight="700" letter-spacing="-0.02em" fill="#c9a84c">discipline.</text>
+  <text x="200" y="540" font-family="'DM Sans', sans-serif" font-size="52" font-weight="700" letter-spacing="-0.02em" fill="white">Noise is a</text>
+  <text x="200" y="610" font-family="'DM Sans', sans-serif" font-size="52" font-weight="700" letter-spacing="-0.02em" fill="white">distraction.</text>
+  <line x1="200" y1="680" x2="440" y2="680" stroke="#c9a84c" stroke-width="2"/>
+  <text x="200" y="740" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="400" letter-spacing="3" fill="white" opacity="0.35">— NOIR EDGE</text>
+  <text x="540" y="1020" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="9" font-weight="400" letter-spacing="4" fill="white" opacity="0.1">EDITORIAL</text>
+</svg>
