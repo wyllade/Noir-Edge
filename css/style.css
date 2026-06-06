@@ -125,6 +125,31 @@ nav {
 .brand-card.ne { background:#0a0a0a; }
 .brand-card.gr { background:#f5f0ea; color:#4a3728; }
 
+/* ── Skills ── */
+.skills-grid {
+  display:grid; grid-template-columns:repeat(4,1fr); gap:24px; max-width:1000px; margin:0 auto;
+}
+.skill-cat h4 {
+  font-family:'DM Sans',sans-serif; font-size:0.8rem; font-weight:600;
+  letter-spacing:2px; text-transform:uppercase; color:var(--brass); margin-bottom:16px;
+}
+.skill-tags { display:flex; flex-wrap:wrap; gap:8px; }
+.skill-tags span {
+  font-family:'DM Sans',sans-serif; font-size:0.68rem; font-weight:500;
+  padding:6px 14px; border-radius:100px; background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.06);
+}
+.interests-tags { display:flex; flex-wrap:wrap; justify-content:center; gap:10px; }
+.interests-tags span {
+  font-family:'DM Sans',sans-serif; font-size:0.7rem; font-weight:500;
+  letter-spacing:1px; padding:8px 20px; border-radius:100px;
+  border:1px solid rgba(201,168,76,0.25); color:var(--brass);
+}
+
+@media (max-width:768px) {
+  .skills-grid { grid-template-columns:repeat(2,1fr); }
+}
+
 /* ── Case Study Sections ── */
 .brand-section { padding:80px 0; }
 .brand-section .container { max-width:1200px; }
