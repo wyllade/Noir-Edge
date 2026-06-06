@@ -47,4 +47,50 @@ document.addEventListener('DOMContentLoaded', () => {
   );
   sections.forEach(s => observerNav.observe(s));
 
+  // Tilt effect (desktop only)
+  if (matchMedia('(pointer: fine)').matches) {
+    document.querySelectorAll('.tilt-card').forEach(card => {
+      let ticking = false;
+      card.addEventListener('mousemove', e => {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            const rotateX = ((y - centerY) / centerY) * -6;
+            const rotateY = ((x - centerX) / centerX) * 6;
+            card.style.transform =
+              `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(8px)`;
+            ticking = false;
+          });
+          ticking = true;
+        }
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = '';
+      });
+    });
+  }
+
+  // Parallax scroll for case-hero sections
+  const caseHeroes = document.querySelectorAll('.case-hero');
+  if (caseHeroes.length) {
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          caseHeroes.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            const centerDist = rect.top + rect.height / 2 - window.innerHeight / 2;
+            el.style.transform = `translateY(${centerDist * -0.15}px)`;
+          });
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+  }
+
 });
