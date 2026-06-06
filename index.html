@@ -12,6 +12,12 @@
 </head>
 <body>
 
+  <div class="bg-grid"></div>
+  <div class="midground-shape shape-1"></div>
+  <div class="midground-shape shape-2"></div>
+  <div class="midground-shape shape-3"></div>
+  <div id="particles"></div>
+
   <!-- ─── Navigation ─── -->
   <nav>
     <a href="#hero" class="nav-logo">NOIR <span>EDGE</span></a>
@@ -35,6 +41,23 @@
         <a href="#contact" class="hero-cta solid">Get In Touch</a>
       </div>
     </div>
+    <div class="hero-device">
+      <div class="device-bar">
+        <span class="device-dot"></span>
+        <span class="device-dot"></span>
+        <span class="device-dot"></span>
+      </div>
+      <div class="device-screen">
+        <div class="device-line"></div>
+        <div class="device-line"></div>
+        <div class="device-line"></div>
+      </div>
+    </div>
+    <div class="tech-chip">React</div>
+    <div class="tech-chip">Python</div>
+    <div class="tech-chip">FastAPI</div>
+    <div class="tech-chip">PostgreSQL</div>
+    <div class="tech-chip">Git</div>
   </section>
 
   <!-- ─── Services ─── -->
@@ -107,6 +130,10 @@
   <!-- ─── About Me ─── -->
   <section id="about" style="padding:100px 24px; border-top:1px solid rgba(255,255,255,0.04);">
     <div class="container reveal">
+      <div class="about-avatar">
+        <div class="glow"></div>
+        <span class="initials">EO</span>
+      </div>
       <div class="section-label" style="text-align:center;">About Me</div>
       <h2 style="text-align:center; margin-bottom:24px;">Frontend &amp; Full-Stack Developer</h2>
       <p style="max-width:800px; margin:0 auto 48px; text-align:center; opacity:0.7; font-size:0.95rem; line-height:1.8;">
@@ -190,7 +217,7 @@
       <h2>Code &amp; design.</h2>
       <p style="opacity:0.5; font-size:0.9rem; margin-top:8px; margin-bottom:0;">Full-stack apps, APIs, and everything in between.</p>
       <div class="projects-grid">
-        <a href="https://github.com/wyllade/innsight" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/wyllade/innsight" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-innsight.svg" alt="innsight"></div>
           <div class="project-info">
             <h3>Innsight</h3>
@@ -198,7 +225,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://github.com/wyllade/culture-explorer" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/wyllade/culture-explorer" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-culture-explorer.svg" alt="culture-explorer"></div>
           <div class="project-info">
             <h3>culture-explorer</h3>
@@ -206,7 +233,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://github.com/wyllade/notifai" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/wyllade/notifai" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-repo.svg" alt="notifai"></div>
           <div class="project-info">
             <h3>notifai</h3>
@@ -214,7 +241,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://github.com/ifilsan266-afk/MILA-project" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/ifilsan266-afk/MILA-project" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-mila-project.svg" alt="MILA-project"></div>
           <div class="project-info">
             <h3>MILA-project</h3>
@@ -222,7 +249,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://github.com/wyllade/workout-tracker-api" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/wyllade/workout-tracker-api" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-repo.svg" alt="workout-tracker-api"></div>
           <div class="project-info">
             <h3>workout-tracker-api</h3>
@@ -230,7 +257,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://github.com/wyllade/inventory-management-api" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/wyllade/inventory-management-api" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-repo.svg" alt="inventory-management-api"></div>
           <div class="project-info">
             <h3>inventory-management-api</h3>
@@ -238,7 +265,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://github.com/wyllade/glowing-guide" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/wyllade/glowing-guide" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-repo.svg" alt="glowing-guide"></div>
           <div class="project-info">
             <h3>glowing-guide</h3>
@@ -246,7 +273,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://github.com/wyllade/portfolio-platform" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/wyllade/portfolio-platform" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-repo.svg" alt="portfolio-platform"></div>
           <div class="project-info">
             <h3>portfolio-platform</h3>
@@ -254,7 +281,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://github.com/wyllade/flask-crud-api" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/wyllade/flask-crud-api" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-repo.svg" alt="flask-crud-api"></div>
           <div class="project-info">
             <h3>flask-crud-api</h3>
@@ -262,7 +289,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://github.com/wyllade/project-management-cli" target="_blank" rel="noopener" class="project-card glass-card tilt-card">
+        <a href="https://github.com/wyllade/project-management-cli" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10">
           <div class="project-img"><img src="assets/images/web-repo.svg" alt="project-management-cli"></div>
           <div class="project-info">
             <h3>project-management-cli</h3>
@@ -270,7 +297,7 @@
             <span class="project-tag">GitHub →</span>
           </div>
         </a>
-        <a href="https://wyllade.netlify.app" target="_blank" rel="noopener" class="project-card glass-card tilt-card" style="grid-column:1/-1;max-width:500px;margin:0 auto;width:100%;">
+        <a href="https://wyllade.netlify.app" target="_blank" rel="noopener" class="project-card glass-card tilt-card" data-tilt-max="10" style="grid-column:1/-1;max-width:500px;margin:0 auto;width:100%;">
           <div class="project-img"><img src="assets/images/web-portfolio.svg" alt="NOIR EDGE"></div>
           <div class="project-info">
             <h3>NOIR EDGE</h3>
@@ -284,18 +311,18 @@
 
   <!-- ─── Work / Brand Grid ─── -->
   <section id="work">
-    <div class="container">
+    <div class="container" data-parallax data-parallax-factor="0.12">
       <div class="section-header reveal">
         <div class="section-label">Selected Work</div>
         <h2>Brands I've built.</h2>
         <p>Click to explore each case study.</p>
       </div>
       <div class="brand-grid reveal">
-        <a href="#noir-edge" class="brand-card ne glass-card tilt-card">
+        <a href="#noir-edge" class="brand-card ne glass-card tilt-card" data-tilt-max="6">
           <img src="assets/logos/noir-edge-logo.svg" alt="NOIR EDGE">
           <span class="brand-tag">Streetwear</span>
         </a>
-        <a href="#grace-revival" class="brand-card gr glass-card tilt-card">
+        <a href="#grace-revival" class="brand-card gr glass-card tilt-card" data-tilt-max="6">
           <img src="assets/logos/grace-revival-logo.svg" alt="Grace Revival">
           <span class="brand-tag">Church</span>
         </a>
@@ -307,7 +334,7 @@
   <section class="brand-section ne-bg" id="noir-edge">
     <div class="container reveal">
       <div class="section-label">Brand Identity — 2026</div>
-      <div class="case-hero">
+      <div class="case-hero" data-parallax data-parallax-factor="0.18">
         <img src="assets/logos/noir-edge-logo.svg" alt="NOIR EDGE wordmark">
       </div>
       <div class="case-story">
@@ -350,7 +377,7 @@
   <section class="brand-section gr-bg" id="grace-revival">
     <div class="container reveal">
       <div class="section-label">Church Identity — 2026</div>
-      <div class="case-hero" style="background:#ece5db;">
+      <div class="case-hero" style="background:#ece5db;" data-parallax data-parallax-factor="0.18">
         <img src="assets/logos/grace-revival-logo.svg" alt="Grace Revival" style="filter:brightness(0.8);">
       </div>
       <div class="case-story">
@@ -394,6 +421,18 @@
       <div class="section-label">Let's work</div>
       <h2>Ready to build your brand?</h2>
       <p class="contact-lede">Let's create something memorable.</p>
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="cta-button primary" style="width:100%;justify-content:center;">Send Message</button>
+      </form>
       <div class="cta-buttons">
         <a href="mailto:emmanueloduor483@gmail.com" class="cta-button primary">Book a Call →</a>
         <a href="mailto:emmanueloduor483@gmail.com" class="cta-button secondary">Send an Email</a>
@@ -441,6 +480,7 @@
     NOIR EDGE &copy; 2026 — Built with intent.
   </footer>
 
+  <div class="spotlight" id="spotlight"></div>
   <script src="js/main.js"></script>
 </body>
 </html>
